@@ -1,5 +1,7 @@
+
 # Weather-Today
 
+![weather](https://user-images.githubusercontent.com/79726069/116834786-46195f00-ab85-11eb-848a-25b745b30e5d.PNG)
 
 ## Purpose
 GIVEN a weather dashboard with form inputs
@@ -22,3 +24,6 @@ THEN I am again presented with current and future conditions for that city
 
 ## Created By
 Zach Imerzel
+
+## Link to site
+https://zimerzel.github.io/Weather-Today/
