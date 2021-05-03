@@ -1,0 +1,73 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to left, rgb(1, 25, 163) , rgb(3, 74, 207));
+    margin: 30px 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    margin: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    display: block;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#search-button {
+    background-color: rgb(48, 98, 248);
+    color: white;
+    border-radius: 5px;
+}
+
+#form-heading {
+    font-weight: bold;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.bg-primary {
+    background-color: #04355efa!important;
+}
